@@ -234,7 +234,7 @@
       "location": "[variables('networkInterface').location]",
       "properties": {
         "ipConfigurations": "[variables('networkInterface').ipConfigurations]",
-        "enableAcceleratedNetworking": "[parameters('enableAcceleratedNetworking')]",
+        "enableAcceleratedNetworking": "[parameters('enableAcceleratedNetworking')]"
       },
       "dependsOn": [
         "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIp').name)]",
