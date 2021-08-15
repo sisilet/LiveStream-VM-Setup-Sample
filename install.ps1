@@ -4,4 +4,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 #Install Software
 choco install microsoft-edge microsoft-teams obs-studio obs-ndi skype vb-cable -y
 
-Set-ItemProperty -Path "HKEY_CURRENT_USER\Software\Microsoft\ServerManager" -Name "CheckedUnattendLaunchSetting" -Value 1
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\ServerManager" -Name "DoNotOpenServerManagerAtLogon" -Value 1
