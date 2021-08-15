@@ -120,7 +120,7 @@
     "virtualNetwork": {
       "name": "[replace(variables('metadata').longName, '{0}', 'vnet')]",
       "location": "[parameters('location')]",
-      "addressPrefixes": "[parameters('virtualNetworkAddressPrefix')]",
+      "addressPrefixes": "[array(parameters('virtualNetworkAddressPrefix'))]",
       "subnets": [
         {
           "name": "[variables('subnetName')]",

@@ -17,7 +17,7 @@ This provides a sample ARM template and custom PowerShell script to install appl
 
 Click the button below to deploy this VM directly onto your Azure Portal:
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdevkimchi%2FLiveStream-VM-Setup-Sample%2Fmain%2Fazuredeploy.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsisilet%2FLiveStream-VM-Setup-Sample%2Fmain%2Fazuredeploy.json)
 
 
 ## Applications to Be Installed via Chocolatey ##
