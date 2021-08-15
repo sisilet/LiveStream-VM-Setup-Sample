@@ -38,7 +38,8 @@
       "defaultValue": "10.0.0.0/24"
     },
     "enableAcceleratedNetworking": {
-      "type": "Bool"
+      "type": "Bool",
+      "defaultValue": true
     },
     "virtualMachineAdminUsername": {
       "type": "string"
@@ -92,7 +93,7 @@
     },
     "virtualMachineExtensionCustomScriptUri": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/devkimchi/LiveStream-VM-Setup-Sample/main/install.ps1"
+      "defaultValue": "https://raw.githubusercontent.com/sisilet/LiveStream-VM-Setup-Sample/main/install.ps1"
     }
   },
   "functions": [],
