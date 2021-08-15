@@ -57,7 +57,8 @@
       "defaultValue": "MicrosoftWindowsDesktop",
       "allowedValues": [
         "MicrosoftVisualStudio",
-        "MicrosoftWindowsDesktop"
+        "MicrosoftWindowsDesktop",
+        "MicrosoftWindowsServer"
       ]
     },
     "virtualMachineOffer": {
@@ -65,7 +66,8 @@
       "defaultValue": "Windows-10",
       "allowedValues": [
         "visualstudio2019latest",
-        "Windows-10"
+        "Windows-10",
+        "WindowsServer"
       ]
     },
     "virtualMachineSku": {
@@ -75,7 +77,8 @@
         "vs-2019-comm-latest-ws2019",
         "vs-2019-ent-latest-ws2019",
         "20h1-pro-g2",
-        "20h1-ent-g2"
+        "20h1-ent-g2",
+        "2019-datacenter-gensecond"
       ]
     },
     "virtualMachineExtensionCustomScriptUri": {
@@ -230,7 +233,8 @@
       "name": "[variables('networkInterface').name]",
       "location": "[variables('networkInterface').location]",
       "properties": {
-        "ipConfigurations": "[variables('networkInterface').ipConfigurations]"
+        "ipConfigurations": "[variables('networkInterface').ipConfigurations]",
+        "enableAcceleratedNetworking": "[parameters('enableAcceleratedNetworking')]",
       },
       "dependsOn": [
         "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIp').name)]",
