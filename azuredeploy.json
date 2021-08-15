@@ -54,11 +54,11 @@
         "Standard_D4s_v3",
         "Standard_D8s_v3",
         "Standard_F4s_v2",
-        "F64s_v2",
-        "D64s_v4",
-        "D96as_v4",
-        "L48s_v2",
-        "L64s_v2"
+        "Standard_F64s_v2",
+        "Standard_D64s_v4",
+        "Standard_D96as_v4",
+        "Standard_L48s_v2",
+        "Standard_L64s_v2"
       ]
     },
     "virtualMachinePublisher": {
