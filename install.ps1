@@ -5,3 +5,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco install obs-studio obs-ndi microsoft-teams voicemeeter googlechrome zoom -y
 
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\ServerManager" -Name "DoNotOpenServerManagerAtLogon" -Value 1
+obs-studio;obs-ndi;microsoft-teams;voicemeeter;vb-cable;googlechrome;microsoft-edge;zoom
